@@ -8,7 +8,7 @@ class Vimeo
   
   def initialize(obj)
     @clip_id  = obj.video_url.split('/').last
-    @response = self.class.get('/api/oembed.json', :query => { :url => "http://vimeo.com/#{@clip_id}", :maxwidth => 320, :maxheight => 480})
+    @response = self.class.get('/api/oembed.json', :query => { :url => "http://vimeo.com/#{@clip_id}", :maxwidth => 480, :maxheight => 350})
     
     raise blank_error(obj) if @response.blank?
   end
