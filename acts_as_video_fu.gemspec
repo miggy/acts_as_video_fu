@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name     = "acts_as_video_fu"
-  s.version  = "1.4"
+  s.version  = "1.3.2"
   s.date     = "2009-08-20"
   s.summary  = "Rails plugin that easily allows you to show video streams on your site."
   s.email    = "matt@matt-darby.com"
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
                 "MIT-LICENSE",
                 "rails/init.rb",
                 "Rakefile",
-                "README",
+                "README.textile",
                 "tasks/acts_as_video_fu_tasks.rake",
                 "test/acts_as_video_fu_test.rb",
                 "uninstall.rb"]
